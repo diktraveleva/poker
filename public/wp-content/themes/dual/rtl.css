@@ -1,0 +1,75 @@
+/*
+Theme Name: Dual
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+https://codex.wordpress.org/Right-to-Left_Language_Support
+*/
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+.navbar-day-night.navbar-night-on .sun-icon {
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+}
+.search-form label,
+.search-form .search-submit {
+    float: right;
+}
+.search-content-area .recent-list-group:before {
+    right: 0;
+    left: inherit;
+}
+.search-content-area .recent-list-group .theme-list-article {
+    padding-left: 0;
+    padding-right: 30px;
+}
+.search-content-area .recent-list-group .theme-list-article:before {
+    right: 0;
+    left: inherit;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -o-transform: translateX(50%);
+    transform: translateX(50%);
+}
+.header-searchbar-area .search-form label{
+    padding-left: .5rem;
+    padding-right: 0;
+}
+.navbar-controls {
+    margin: 0 2rem 0 -1.25rem;
+}
+#offcanvas-menu {
+    left: -100%;
+    right: inherit;
+    -webkit-transition: left 0.5s;
+    -moz-transition: left 0.5s;
+    -ms-transition: left 0.5s;
+    -o-transition: left 0.5s;
+    transition: left 0.5s;
+}
+#offcanvas-menu.offcanvas-menu-active {
+    left: 0;
+    right: inherit;
+}
+.widget_recent_entries ul li a,
+.widget_recent_comments ul li a,
+.widget_categories ul li a,
+.widget_pages ul li a,
+.widget_archive ul li a,
+.widget_meta ul li a {
+    padding-right: 0;
+    padding-left: 0.6666666667rem;
+    margin-right: inherit;
+    margin-left: auto;
+}
+.footer-navigation li {
+    padding-left: 10px;
+    padding-right: 0;
+}
+.to-the-top {
+    text-align: left;
+}
