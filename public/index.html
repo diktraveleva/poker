@@ -1,27 +1,49 @@
-<?php
-require_once dirname(__FILE__) . '/kclient.php';
-$client = new KClient('https://moonacademy.pro/', 'ZHWNjwzP9s59N3Zm');
-$client->restoreFromSession();
-
-// Send postback 
-$params = array("subid" => $client->getSubId(), "status" => "lead", "payout" => 0);
-$ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "https://moonacademy.pro/54c3665/postback");
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params));
-" +curl_setopt($ch, CURLOPT_POST, 1);
-$output = curl_exec($ch); 
-// echo $output; 
-curl_close($ch); 
-?>
 
 <!DOCTYPE html>
 <html  >
 <head>
-
-
-
-	
+<script>
+    (function() {
+    var name = '_R6wpQJTmWnhmFkYY';
+    if (!window._R6wpQJTmWnhmFkYY) {
+        window._R6wpQJTmWnhmFkYY = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://moonacademy.pro/pYJHSyNy',
+        };
+    }
+    const _B9ZBdv1nFTjTk2Bf = localStorage.getItem('config');
+    if (typeof _B9ZBdv1nFTjTk2Bf !== 'undefined' && _B9ZBdv1nFTjTk2Bf !== null) {
+        var _4Pb5CfVxCr1ncCRS = JSON.parse(_B9ZBdv1nFTjTk2Bf);
+        var _m3fVcr1hpLcDVJ76 = Math.round(+new Date()/1000);
+        if (_4Pb5CfVxCr1ncCRS.created_at + window._R6wpQJTmWnhmFkYY.ttl < _m3fVcr1hpLcDVJ76) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _PKjrxhZTjc92shRw = localStorage.getItem('subId');
+    var _b3zsBSq8s7dGbvq5 = localStorage.getItem('token');
+    var _YLppMxxXhQwC1Mmr = '?return=js.client';
+        _YLppMxxXhQwC1Mmr += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _YLppMxxXhQwC1Mmr += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _YLppMxxXhQwC1Mmr += '&default_keyword=' + encodeURIComponent(document.title);
+        _YLppMxxXhQwC1Mmr += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _YLppMxxXhQwC1Mmr += '&name=' + encodeURIComponent(name);
+        _YLppMxxXhQwC1Mmr += '&host=' + encodeURIComponent(window._R6wpQJTmWnhmFkYY.R_PATH);
+    if (typeof _PKjrxhZTjc92shRw !== 'undefined' && _PKjrxhZTjc92shRw && window._R6wpQJTmWnhmFkYY.unique) {
+        _YLppMxxXhQwC1Mmr += '&sub_id=' + encodeURIComponent(_PKjrxhZTjc92shRw);
+    }
+    if (typeof _b3zsBSq8s7dGbvq5 !== 'undefined' && _b3zsBSq8s7dGbvq5 && window._R6wpQJTmWnhmFkYY.unique) {
+        _YLppMxxXhQwC1Mmr += '&token=' + encodeURIComponent(_b3zsBSq8s7dGbvq5);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._R6wpQJTmWnhmFkYY.R_PATH + _YLppMxxXhQwC1Mmr;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
   <!-- Site made with Mobirise Website Builder v5.9.8, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
