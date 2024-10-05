@@ -1,9 +1,0 @@
-branches:
-  only:
-    - main
-deploy:
-  provider: firebase
-  token:
-    secure: "LqAiDqCKGFmQZ9LTXUekBuI+sSCAtRpyhdaRF2m1miCqBayxXoWqZt3YM/sUyjwvPmZWoI6nmpFNmgIf0hNwTT6pb2sVmZrhQYCKK01lure32dXNmYcqtc+ezhDebxImIBpzU1R8JpdkPjJNm53qrhpoHUlvS4OGDjw1yQlGdlCRkh4vTdk5my7eQg6YlYdVfYR9Lik8uaMxAFzJR4/MYSPVJuSrcsmWrd3Ef9491ybNjyPCfyQMCk1ENotyiLAW1eq2zsTQeWuS7kbs1v6It1slMUeyK/pd6qC62dEgDayGQRFtgX8n2NTT9ZEUNgVFlsx7mTqw6h2MZGH39hhyBdTinASbucQBKPgFIgfnT49+DJur66obD4dswIYQgMOVP/R57o8e/ovZ2rdwz5PgY/dhs8e+NITufyUlRSx9i70mKX1JhwNO1YEQAEYyhfMWWiV9T7FTY6CxXCqf5tE/f3yXuLqwGs0hpkMqiJ1E/lrJPlIxnEUgqD4UfrZSNGupXh7tBYLnW0AfPiqqEKPN7hOOWzeQy/nrtAM7km83WB/2spDnMpMRhBbjTBNNJiWEx8D/Pu7CqoeNa95C8szPGKCCRx2bVPz7qTq0J0vQTT/uwfw1THAMC+viGSbPtKGgT7AKCkC8ldFIUA7c8STrsb7KzxF6jDl1qw4nEvRRPYM="
-  on:
-    branch: main
